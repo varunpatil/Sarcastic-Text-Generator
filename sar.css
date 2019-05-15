@@ -6,16 +6,6 @@ body
 	width: 100%;
 }
 
-#grid
-{
-
-}
-
-.head
-{
-
-}
-
 #div1
 {
 	margin-top: 45px;
@@ -48,22 +38,6 @@ body
     margin-left: -10px;
 }
 
-#div5
-{
-	margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-}
-
-#div6
-{
-	margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-left: -10px;
-}
-
 #input
 {
 	font-weight: 700;
@@ -85,16 +59,7 @@ body
 	margin-top: 9px;
 }
 
-#output1
-{
-	font-weight: 700;
-	font-family: Arial;
-	font-size: 14px;
-	margin-left:28px;
-	margin-top: 10px;
-}
-
-#output2
+#output
 {
 	font-weight: 700;
 	font-family: Arial;
