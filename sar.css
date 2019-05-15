@@ -1,0 +1,104 @@
+body
+{
+	background-color: #e5e5e5;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+#grid
+{
+
+}
+
+.head
+{
+
+}
+
+#div1
+{
+	margin-top: 45px;
+    margin-right: 0;
+    margin-bottom: 20px;
+    margin-left: 45%;
+}
+
+#div2
+{
+	margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+}
+
+#div3
+{
+	margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#div4
+{
+	margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+}
+
+#div5
+{
+	margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#div6
+{
+	margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+}
+
+#input
+{
+	font-weight: 700;
+	font-family: Arial;
+	font-size: 14px;
+	margin-left:28px;
+	margin-top: 10px;
+}
+
+#submit
+{
+	font-weight: 700;
+	font-size: 20px;
+	height: 48px;
+	width: 96px;
+	background-color: #d2d2d2;
+	border-width:2;
+	margin-left: 20px;
+	margin-top: 9px;
+}
+
+#output1
+{
+	font-weight: 700;
+	font-family: Arial;
+	font-size: 14px;
+	margin-left:28px;
+	margin-top: 10px;
+}
+
+#output2
+{
+	font-weight: 700;
+	font-family: Arial;
+	font-size: 14px;
+	margin-left:28px;
+	margin-top: 10px;
+}
