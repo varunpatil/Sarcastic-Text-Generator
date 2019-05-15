@@ -7,7 +7,7 @@ var submit = function()
 
 	for(var i=0;i<s.length;i++)
 	{
-		if(s[i]!=' ')
+		if(s[i]>='A' && s[i]<='Z')
 		{
 			if(a%2==0)
 			{
