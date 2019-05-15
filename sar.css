@@ -67,3 +67,17 @@ body
 	margin-left:28px;
 	margin-top: 10px;
 }
+
+.gitlink{ position:relative;}
+
+#gitlink
+{
+	position: absolute;
+	bottom: -100px;
+	left: 10px;
+	text-align: center;
+	font-size: 25px;
+	font-family: Arial;
+	font-weight: bold;
+	color: black;
+}
