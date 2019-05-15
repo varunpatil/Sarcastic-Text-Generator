@@ -38,6 +38,22 @@ body
     margin-left: -10px;
 }
 
+#div5
+{
+	margin-top: 45px;
+    margin-right: 0;
+    margin-bottom: 20px;
+    margin-left: 45%;
+}
+
+#div6
+{
+	margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+}
+
 #input
 {
 	font-weight: 700;
@@ -59,7 +75,16 @@ body
 	margin-top: 9px;
 }
 
-#output
+#output1
+{
+	font-weight: 700;
+	font-family: Arial;
+	font-size: 14px;
+	margin-left:28px;
+	margin-top: 10px;
+}
+
+#output2
 {
 	font-weight: 700;
 	font-family: Arial;
