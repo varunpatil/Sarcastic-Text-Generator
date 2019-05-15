@@ -1,2 +1,2 @@
 # Sarcastic-Text-Generator
-turns string into sarcastic string ;)
+turns string into sArCaStIc sTrInG ;)
