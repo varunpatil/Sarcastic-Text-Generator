@@ -6,7 +6,7 @@ var submit = function()
 	out2="";
 	var a=0;
 
-	var smallchar=["aãåāàáâäąă","bƄ","cçĉ¢ċč","dďđḍ","eēêĕëėęèé","fƒ","gġĝğ","hĥħ","i!ìïĭįīîí","jĵ","ķk","l","m","nñṅń","oõōøòöôó","p","qǫ","rṛŕŗř","s$śṣšş","tṭͳţŧ","uūüũùûúůű","v","wŵω","x×","y¥ýÿŷ","zƶžźžż"];
+	var smallchar=["aãåāàáâäąă","bƄ","cçĉ¢ċč","dďđḍ","eēêĕëėęèé","fƒ","gġĝğ","hĥħ","i!ìïĭįīîí","jĵ","ķk","l","m","nñṅń","oõōøòöôó","p","qǫ","rṛŕŗř","s$śṣšş","tṭţŧ","uūüũùûúůű","v","wŵω","x×","y¥ýÿŷ","zƶžźžż"];
 	var bigchar=["AÃÅĀÀÁÂÄĂĄ","BẞƁɃ","CĆĈČÇĊÇ","DĎḌÐ","EƎĒÊĔËÈĘĖÉ£Ʃ","ƑF","GĠĜĢĞ","HĤ","IÌÏĪĬÎÍ","JĴ","KĶ","LŁĿĽ","M","NÑŊŃƝ","OÕŌØÒÖÔΘÓ0","PƤ","QǬǪ","RṚŔŖŘ","S$ŚṢŠŞ","TṬŤŦͲ","UŪŨÜŮŰÙÛÚ","V","WŴƜ","X","YÝŶŸ","ZƵŽŻŽŹ"];
 
 	for(var i=0;i<s.length;i++)
@@ -36,32 +36,28 @@ var submit = function()
 	a=0;
 	for(var i=0;i<s.length;i++)
 	{
-		if(s[i]!=' ')
+		if(s[i]>='A' && s[i]<='Z')
 		{
-			if(s[i]>='A' && s[i]<='Z')
+			var no = s.charCodeAt(i)-65;
+			if(a%2==0)
 			{
-				var no = s.charCodeAt(i)-65;
-				if(a%2==0)
-				{
-					var num = Math.floor(Math.random() * smallchar[no].length);
-					out2=out2+smallchar[no][num];
-				}
-				else
-				{
-					var num = Math.floor(Math.random() * bigchar[no].length);
-					out2=out2+bigchar[no][num];
-				}
-				a++;
+				var num = Math.floor(Math.random() * smallchar[no].length);
+				out2=out2+smallchar[no][num];
 			}
 			else
 			{
-				out2=out2+s[i];
+				var num = Math.floor(Math.random() * bigchar[no].length);
+				out2=out2+bigchar[no][num];
 			}
+			a++;
 		}
 		else
 		{
 			out2=out2+s[i];
-			a=0;
+			if(s[i]==' ')
+			{
+				a=0;
+			}
 		}
 	}
 
