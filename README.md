@@ -1,2 +1,2 @@
 # Sarcastic-Text-Generator
-turns string into sArCaStIc sTrInG or ḍĔńK $ṬṛÏṅG ;)
+turns string into sArCaStIc sTrInG or ḍĔńK/ċŘíŊĝË $ṬṛÏṅG ;)
