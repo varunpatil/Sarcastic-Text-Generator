@@ -67,7 +67,7 @@ export default function Options(props) {
             }}
           />
         }
-        label="First letter of each word is Lowercase"
+        label="Words starts with Lowercase"
       />
       <FormControlLabel
         control={
@@ -82,7 +82,7 @@ export default function Options(props) {
             }}
           />
         }
-        label="First letter of each word is Uppercase"
+        label="Words starts with Uppercase"
       />
       <FormControlLabel
         control={
