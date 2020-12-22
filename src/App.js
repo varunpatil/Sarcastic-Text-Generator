@@ -29,8 +29,7 @@ export default function App() {
   }
 
   const copyToClipboard = () => {
-    document.getElementById("outputField").select();
-    document.execCommand("copy");
+    navigator.clipboard.writeText(output);
     setShowAlert(true);
     setTimeout(() => {
       setShowAlert(false);
@@ -59,7 +58,6 @@ export default function App() {
       <Box m={2} />
 
       <TextField
-        id="inputField"
         label="Enter Text Here"
         multiline
         fullWidth
@@ -72,7 +70,6 @@ export default function App() {
       <Box m={6} />
 
       <TextField
-        id="outputField"
         placeholder="Output will come here"
         readOnly
         multiline

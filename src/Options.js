@@ -95,7 +95,7 @@ export default function Options(props) {
             }}
           />
         }
-        label="SpongeBob background"
+        label="SpongeBob Background"
       />
     </Grid>
   );

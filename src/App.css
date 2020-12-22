@@ -2,7 +2,6 @@
   background-repeat: no-repeat;
   background-position: center;
   content: "";
-  position: fixed;
   z-index: -1;
   top: 0;
   bottom: 0;
