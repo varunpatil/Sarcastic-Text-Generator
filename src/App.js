@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Alert from "@material-ui/lab/Alert";
 import { Box, Button, TextField, Typography } from "@material-ui/core";
 import Options from "./Options";
+import GithubLink from "./GithubLink";
 import transformText from "./transformText";
 import "./App.css";
 
@@ -86,6 +87,8 @@ export default function App() {
       {alert}
 
       <Options options={options} setOptions={setOptions} />
+
+      <GithubLink />
     </Box>
   );
 }
